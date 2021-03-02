@@ -1,0 +1,470 @@
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=UnifrakturCook:wght@700&display=swap');
+:root {
+    scroll-behavior: smooth;
+
+}
+body {
+    background-color:#460F05;
+}
+div {
+    display:block;
+    float: left;
+width: 200px;
+}
+div .logo {
+    justify-self: center;
+    padding: 4px;
+    margin: 4px 4px 4px 4px;
+    border-radius: 10px;
+}
+#leftimg {
+    border-radius: 6px;
+}
+a {
+color: whitesmoke;
+text-decoration:black;
+font-family: 'UnifrakturCook', cursive;
+font-size: 20px;
+padding: 4px;
+}
+a:hover {
+    color: black;
+}
+menu {
+    background-size: cover;
+}
+
+
+.menu {
+    background-color:#460F05;
+    overflow: hidden;
+}
+ul.menu {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+
+}
+ul.menu li {
+    display: flex;
+    margin: auto;
+    border: 0px solid #000;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .menu {
+        flex-flow: column;
+        text-align: center;
+    }
+    ul.menu {
+        flex-flow: column;
+        padding: 10px 30px;
+
+    }
+    
+}
+@media (min-width: 2000px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    ul.menu {
+        margin: 0;
+    padding: 10px;
+    display: flex;
+    }
+    ul.menu li {
+        display: flex;
+        margin: auto;
+        border: 0px solid #000;
+        padding: 10px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+h1.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+color:#E9B8DA;
+}
+section.container {
+    display: flex;
+    width: 1500px;
+    height: 1200px;
+    background-color:#460F05;
+}
+section.container, p {
+    color: #f0e6e4;
+    align-items: left;
+    font-family:'Rozha One', serif;
+    font-size: 40px;
+}
+p:first-letter {
+    font-family: 'Rozha One', serif;
+    font-size: larger; 
+    color:#F2E3EE;
+    }
+#about-us {
+    margin: 50px 10px;
+}
+#check {
+font-family:'Rozha One', serif;
+font-size: 20px;
+}
+#btn {
+font-family: 'UnifrakturCook', cursive;
+font-size: 20px;
+padding: 10px 5px;
+}
+.rightimg {
+    top:50%;
+    float: right;
+    margin: 50px 60px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+[type="submit"] {
+    margin: 30px 0px 30px 0px;
+    border-radius: 10px;
+    border-color: #f0e6e4 ;
+ border-style: solid;
+    background-color: #460F05;
+color:#E9B8DA;
+justify-content: center;
+}
+section.container1 {
+    display: flex;
+    background-image: url(img/kyoto.jpg);
+    height: 1100px;
+    margin-top: 200px;
+}
+h2.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #256A17;
+margin-top: 30px;
+margin-left: 250px;
+}
+#order {
+    float: left;
+    margin-top: 70px;
+    margin-left: 200px;
+    background-color:transparent;
+}
+#polka {
+    float: center;
+    margin-right: 250px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.thick-pink-border {
+    border: 50px solid #256A17;
+}
+section.container1 p {
+    color: black;
+    align-items: left;
+    font-family:'Rozha One', serif;
+    font-size: 40px;
+}
+#satisfy {
+    font-family:'Rozha One', serif;
+font-size: 35px;
+}
+#satisfy::first-letter {
+    font-family: 'Rozha One', serif;
+font-size: larger; 
+color: black;
+}
+#have {
+    font-family:'Rozha One', serif;
+    font-size: 20px;
+}
+#have:first-letter {
+    font-family: 'Rozha One', serif;
+font-size: larger; 
+color: black;
+}
+ div #offer {
+    font-family:'Rozha One', serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#offer:first-letter {
+    font-family: 'Rozha One', serif;
+font-size: larger; 
+color: black;
+}
+#list {
+    font-size: medium;
+    margin-left: 200px;
+}
+#browse {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 20px;
+padding: 10px 5px;
+    margin-left: 250px;
+    border-radius: 10px;
+    border-color:black;
+ border-style: solid;
+    background-color:#F2E3EE;
+color: #460F05;
+}
+section.container2 {
+    display: flex;
+    width: 1100px;
+    height: 1200px;
+}
+h3.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+color:#E9B8DA;
+text-align: center;
+font-size: 40px;
+}
+h3.red-text.p {
+    text-align: center;
+    font-size: 20px;
+}
+#p1 {
+    font-size: 25px;
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+}
+#p2 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+figure {
+    display: inline-block;
+    padding: 10px;
+}
+.under {
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'UnifrakturCook', cursive;
+    border: #E9B8DA 15px solid;
+}
+.scale {
+transition: 2s;
+}
+.scale:hover {
+    transform:scale(1.2);
+}
+h4.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+.container3 {
+    height: 1640px;
+    background-image: url(img/paper-lantern.jpg);
+}
+.container4 {
+    align-items: center;
+    margin-bottom: 200px;
+}
+.container5 {
+    background-image: url(img/kimono.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 1100px;
+    color: black;
+    text-align: justify;
+
+}
+
+* {box-sizing:border-box}
+.container6 {
+    background-color: teal;
+    width: 2000px;
+    height: 1100px;
+}
+
+
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin-left: 500px;
+  margin-top: 250px;
+  margin-right: 450px;
+  margin-bottom: 40px;
+  justify-self: center;
+  background-color: teal;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  margin-right: 20px;
+  width: 100%;
+  text-align: center;
+  font-family:'UnifrakturCook', cursive;
+}
+#eye-painting {
+    margin-left: 290px;
+}
+#tears {
+margin-left: 330px;
+}
+#boy {
+    margin-left: 310px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  top: 0;
+  margin-right: 400px;
+  overflow: hidden;
+
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.container7 {
+    background-color: #D2D2D2;
+    height: 1100px;
+}
+h6.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: #460F05; 
+    text-align: center;
+}
+.contacts {
+    margin-top: 300px;
+}
+.chapter {
+    color: black;
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+dd {
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+.map {
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
+.container8 {
+    height: 1100px
+}
+.rightimg {
+    float: right;
+    margin: 10px 10px 10px 0;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-width: 15px;
+    margin-right: 50px;
+}
+h5.red-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke; 
+    text-align: center;
+}
+#blog {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    color: whitesmoke; 
+    text-align: center;
+}
+footer {
+    height: 200px;
+}
+#rights-reserved {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'UnifrakturCook', cursive;
+}
